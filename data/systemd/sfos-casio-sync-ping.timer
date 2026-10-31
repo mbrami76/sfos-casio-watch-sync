@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Michele Brami
+
+# Placeholder period (item 3: open).
+[Unit]
+Description=Casio Watch Sync: periodic check of the background service
+
+[Timer]
+OnStartupSec=30s
+OnUnitActiveSec=5min
+AccuracySec=30s
+
+[Install]
+WantedBy=user-session.target

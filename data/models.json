@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "id": "dw-h5600",
+      "label": "Casio DW-H5600",
+      "family": "h5600",
+      "status": "supported",
+      "defaultSilhouette": "dw-h5600",
+      "namePatterns": ["CASIO DW-H5600"],
+      "params": { "dowEncoding": "sun0" }
+    }
+  ]
+}

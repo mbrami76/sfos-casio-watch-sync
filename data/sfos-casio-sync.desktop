@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Michele Brami
+
+[Desktop Entry]
+Type=Application
+Name=Casio Watch Sync
+Comment=Set the time of Casio Bluetooth watches and forward notifications
+Icon=sfos-casio-sync
+Exec=sfos-casio-sync
+
+[X-Sailjail]
+OrganizationName=it.michelebrami
+ApplicationName=sfos-casio-sync
+Sandboxing=Disabled

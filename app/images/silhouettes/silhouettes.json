@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "note": "All five files have a tight viewBox (the viewBox is the content); no bounds handling is needed. The files are original drawings and are kept unchanged.",
+  "silhouettes": [
+    {
+      "id": "classic",
+      "label": "Classic",
+      "file": "classic.svg",
+      "viewBox": [
+        0,
+        0,
+        96.326,
+        201.877
+      ],
+      "content": [
+        0,
+        0,
+        96.326,
+        201.877
+      ]
+    },
+    {
+      "id": "dw-h5600",
+      "label": "DW-H5600",
+      "file": "dw-h5600.svg",
+      "viewBox": [
+        0,
+        0,
+        169.863,
+        270.669
+      ],
+      "content": [
+        0,
+        0,
+        169.863,
+        270.669
+      ]
+    },
+    {
+      "id": "edifice",
+      "label": "Edifice",
+      "file": "edifice.svg",
+      "viewBox": [
+        0,
+        0,
+        189.106,
+        297.002
+      ],
+      "content": [
+        0,
+        0,
+        189.106,
+        297.002
+      ]
+    },
+    {
+      "id": "gbx-100",
+      "label": "GBX-100",
+      "file": "gbx-100.svg",
+      "viewBox": [
+        0,
+        0,
+        159.67,
+        271.618
+      ],
+      "content": [
+        0,
+        0,
+        159.67,
+        271.618
+      ]
+    },
+    {
+      "id": "round",
+      "label": "Round",
+      "file": "round.svg",
+      "viewBox": [
+        0,
+        0,
+        189.442,
+        295.632
+      ],
+      "content": [
+        0,
+        0,
+        189.442,
+        295.632
+      ]
+    }
+  ]
+}

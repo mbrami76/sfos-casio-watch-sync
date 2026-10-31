@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Michele Brami
+
+# Makes the D-Bus name of the background service appear. Peer.Ping to the name (answered by the
+# D-Bus library, no API of the program involved) starts the service by D-Bus activation if it is not
+# running and does nothing if it is. This unit never runs the program itself, so it cannot start a
+# second service process.
+[Unit]
+Description=Casio Watch Sync: make sure the background service is running
+
+[Service]
+Type=oneshot
+# The leading "-": a missing answer is not an error worth a failed unit.
+ExecStart=-/usr/bin/dbus-send --session --print-reply --reply-timeout=10000 --dest=it.michelebrami.sfos_casio_sync / org.freedesktop.DBus.Peer.Ping
+StandardOutput=null
